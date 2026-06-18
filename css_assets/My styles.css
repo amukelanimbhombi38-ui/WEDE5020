@@ -1,0 +1,153 @@
+/*CSS Reset*/
+
+*,
+ *::before
+ *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+body {
+  font-family: 'Aptos Serif', serif;
+  font-size: 1rem; /* 1rem = 16px */
+  font-weight: 400;
+  background-color: rgb(200, 123, 7); 
+  color: #f2f4ebfe;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(200, 123, 7);
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  max-width: 12rem;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+nav a {
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: rgba(245, 245, 7, 0.886);
+  color: #000;
+}
+
+nav a:active {
+  background-color: rgba(245, 245, 7, 0.886);
+}
+
+.hero {
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Aptos Slab Extrabold', serif;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+/*CSS Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  background-color: rgba(245, 245, 7, 0.886);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(245, 245, 7, 0.886);
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  background-color: rgba(245, 245, 7, 0.886);
+}
+
+footer {
+  background-color: rgb(200, 123, 7);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Larger screens: multi-column layout */
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Extra large screens: 3-column layout */
+@media (min-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Smaller screens: single column */
+@media (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
