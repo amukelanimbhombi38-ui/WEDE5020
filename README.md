@@ -61,3 +61,7 @@ Chaffey, D. (2022). accessed (28 March 2026)
 Digital Marketing: Strategy, Implementation and Practice. Pearson.
 Shopify (2025). accessed (28 March 2026)
 Shopify Features Overview. [Online]. Copilot: accessed (28 March 2026)
+### Part 2: CSS
+I updated my CSS style sheet to correspond with my updated website.
+### Part 3: JavaScript
+I added functionality to my website using javascrip. i created a GitHub account and transfered my work there.
