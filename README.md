@@ -63,5 +63,65 @@ Shopify (2025). accessed (28 March 2026)
 Shopify Features Overview. [Online]. Copilot: accessed (28 March 2026)
 ### Part 2: CSS
 I updated my CSS style sheet to correspond with my updated website.
+I fixed my navigation and implemneted grids to adapt layout to various screen sizes. 
 ### Part 3: JavaScript
-I added functionality to my website using javascrip. i created a GitHub account and transfered my work there.
+(Based on Part 2 feedback)
+1. Responsive Web Design
+Implemented fluid grids using CSS Grid and Flexbox to adapt layouts across screen sizes.
+
+Applied media queries for breakpoints (mobile, tablet, desktop).
+
+Introduced fluid typography with clamp for scalable font sizes.
+
+Ensured images are responsive with max-width and object-fit.
+
+2. Navigation Enhancements
+Added a hamburger menu toggle for mobile devices.
+
+Styled navigation links for accessibility and touch‑friendly interaction.
+
+Integrated smooth scrolling for internal navigation.
+
+3. Interactive Elements
+Built an accordion component for FAQs on the Enquiries page.
+
+Implemented a lightbox gallery for product images.
+
+Added animations (fade‑in hero section, hover effects on products).
+
+4. Dynamic Content
+Created a search filter for products, allowing instant filtering by keywords.
+
+Added a dynamic product loader example to demonstrate extensibility.
+
+5. Purchase & Payment Section
+Designed a checkout form with customer and payment fields.
+
+Styled the form to match brand colors.
+
+Added JavaScript validation and placeholder submission logic.
+
+6. Forms & Validation
+Developed an Enquiry form (services, products, sponsorship).
+
+Built a Contact form (general messages, subject, full message).
+
+Applied HTML5 validation attributes and JavaScript client‑side validation.
+
+Provided user feedback with alerts upon successful submission.
+
+7. Deployment & Repository Management
+Recommended GitHub repository practices: regular commits, descriptive messages, updated README.
+
+### Updated Reference list
+Duckett, J. (2014). HTML and CSS: Design and Build Websites. John Wiley & Sons.
+
+Marcotte, E. (2011). Responsive Web Design. A Book Apart.
+
+W3Schools. (2026). CSS Responsive Design. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (w3schools.com in Bing) [Accessed 19 June 2026].
+
+Mozilla Developer Network (MDN). (2026). Responsive Design Basics. Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design (developer.mozilla.org in Bing) [Accessed 19 June 2026].
+
+PayFast. (2026). Integration Guide. Available at: https://www.payfast.co.za/developers/ [Accessed 19 June 2026].
+
+The Independent Institute of Education (Pty) Ltd. (2026). Web Development Coursework Guide. Johannesburg: IIE.
