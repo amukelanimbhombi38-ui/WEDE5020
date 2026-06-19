@@ -7,6 +7,7 @@ Dynamic product loading (example: adds a “Limited Edition Cap”).
 Search filter for products.
 Hero section animation.
 Checkout section in the products page.
+Added enquiry form with validation.
 ### Changed
 Font colour.
 Pictures in products page.
